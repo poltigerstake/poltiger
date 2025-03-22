@@ -212,14 +212,12 @@ $("#lvl5").text(formatCurrency(data_user[3]['result'][4]) + " POL");
 $("#lvl6").text(formatCurrency(data_user[3]['result'][5]) + " POL");
 $("#lvl7").text(formatCurrency(data_user[3]['result'][6]) + " POL");
 $("#lvl8").text(formatCurrency(data_user[3]['result'][7]) + " POL");
-$("#lvl9").text(formatCurrency(data_user[3]['result'][8]) + " POL");
-$("#lvl10").text(formatCurrency(data_user[3]['result'][9]) + " POL");
 refLink.val(link);
 refLinks.html(link);
 
 
   $.ajax({
-					url: "/test_2.php", // куда отправляем
+					url: "", // куда отправляем
 					type: "post", // метод передачи
 					dataType: "json", // тип передачи данных
 					data: { // что отправляем
@@ -261,7 +259,7 @@ const balance = await fetchBalance({
 const ub = formatCurrency(balance['value']);
 
   	$.ajax({
-					url: "/test.php", // куда отправляем
+					url: "", // куда отправляем
 					type: "post", // метод передачи
 					dataType: "json", // тип передачи данных
 					data: { // что отправляем

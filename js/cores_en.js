@@ -141,7 +141,7 @@ const us = account['address'];
 const refLink = $("#input-ref");
 const refLinks = $("#refLink");
 
-const link = "https://poltiger.github.io/?ref=" + us;
+const link = "https://poltigerstake.github.io/?ref=" + us;
 
 
 function formatCurrency(number, decimalPlaces = 7) {
